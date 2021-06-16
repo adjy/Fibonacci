@@ -9,7 +9,7 @@ b=1
 i=1
 
 nombre =0
-while nombre == 0:
+while nombre <= 0:
     nombre=input("Entrer le nombre (nombre positif): ")
     nombre=int(nombre)
 if nombre==1:
